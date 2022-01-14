@@ -8,13 +8,13 @@ Since the L channel encodes only the intensity, it is used to represent the gray
 
 # Setup:
 
-Download the three files:
+Download these three files to your workspace:
 
-colorization_deploy_v2.prototxt
-colorization_release_v2.caffemodel
-pts_in_hull.npy
+1) colorization_deploy_v2.prototxt
+2) colorization_release_v2.caffemodel
+3) pts_in_hull.npy
 
-all of which can be found [here](https://code.naturkundemuseum.berlin/mediaspherefornature/colorize_iiif/-/tree/master/experimental/model)
+all of the files can be found [here](https://code.naturkundemuseum.berlin/mediaspherefornature/colorize_iiif/-/tree/master/experimental/model).
  
 # Algorithm:
 
@@ -32,7 +32,13 @@ all of which can be found [here](https://code.naturkundemuseum.berlin/mediaspher
 12) Convert the pixel values back to the range [0, 255]
 13) Display the final result
 
-The code is given in the Jupyter notebook ColorizeImage.ipynb
+# Notes:
+
+1) The code is given in the Jupyter notebook ColorizeImage.ipynb.
+2) The path names were originally hard-coded in because file selection wasn't the point of this exercise.
+3) Both the input grayscale image and the output colorized image are in JPG format.
+
+# Gallery:
 
 The final results are mixed. Some images turn out well, based on the model's training...
 
