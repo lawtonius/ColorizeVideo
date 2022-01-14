@@ -8,7 +8,13 @@ Since the L channel encodes only the intensity, it is used to represent the gray
 
 # Setup:
 
-Download the three file "colorization_deploy_v2.prototxt", "colorization_release_v2.caffemodel", and "pts_in_hull.npy", all of which can be found [here](https://code.naturkundemuseum.berlin/mediaspherefornature/colorize_iiif/-/tree/master/experimental/model)
+Download the three files:
+
+colorization_deploy_v2.prototxt
+colorization_release_v2.caffemodel
+pts_in_hull.npy
+
+all of which can be found [here](https://code.naturkundemuseum.berlin/mediaspherefornature/colorize_iiif/-/tree/master/experimental/model)
  
 # Algorithm:
 
