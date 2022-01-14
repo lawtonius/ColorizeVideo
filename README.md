@@ -53,13 +53,14 @@ By their own [admission](https://richzhang.github.io/colorization/), their color
 
 # Part II: Colorize Black-and-White videos
 
-Colorizing a black-and-white video follows a very similar process. First, the video is broken up into its individual frames (numbered individually and saved as JPG images in a 'Frames' folder). Each frame is then colorized using the same process describe above. After each frame has been colorized, they are then reassembled to create a complete colorized video.
+Colorizing a black-and-white video follows a very similar process. First, the video is broken up into its individual frames (numbered individually and saved as JPG images in a 'Frames' folder). Each frame is then colorized using the same process describe above. After each frame has been colorized, the frames are then reassembled to create a complete colorized video.
 
 # Notes:
 
 1) The code is given in the Jupyter notebook ColorizeVideo.ipynb.
 2) Again, the path names were originally hard-coded in because file selection wasn't the point of this exercise.
-3) The input video is in MP4 format. The output video is in AVI format.
+3) Both the input and output videos are in MP4 format.
 4) Any sound track that came with the video will be lost.
-5) The output video is larger than the input video
-6) I've used this process to successfully colorize a half hour-long Buster Keaton film, but such files are too large to place on GitHub.
+5) I've used this process to successfully colorize a half hour-long Buster Keaton film, but such files are too large to place on GitHub.
+
+![SlapstickBW](https://user-images.githubusercontent.com/80790548/149560367-27b02404-0ba1-45fe-83f2-f9de666f0065.gif)![SlapstickC](https://user-images.githubusercontent.com/80790548/149560381-8c601fc4-d303-42a5-b7e0-552699d87ed3.gif)
