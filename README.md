@@ -1,4 +1,4 @@
-# Colorize Black-and-White images
+# Part I: Colorize Black-and-White images
 
 This program is based on a 2016 paper published by Richard Zhang, Phillip Isola, and Alexei A. Efros, which can be found [here](https://arxiv.org/abs/1603.08511). Their project utilized the ImageNet database (or rather, a subset of it - one million [or so] of the fourteen million [or so] images) to create a pre-trained convolutional neural network.
 
@@ -50,3 +50,16 @@ The final results are mixed. Some images turn out well, based on the model's tra
 ![BW04](https://user-images.githubusercontent.com/80790548/149423122-73b93cb1-ffaa-4480-bd2a-d2f2cd04c962.jpg)![Color04](https://user-images.githubusercontent.com/80790548/149423128-f5e2c830-ff51-4460-ac83-240848be2333.jpg)
 
 By their own [admission](https://richzhang.github.io/colorization/), their colorization process isn't perfect. Instead of generating realistic results, it generates plausible ones which can fool humans about 32% of the time (significantly higher than previous methods).
+
+# Part II: Colorize Black-and-White videos
+
+Colorizing a black-and-white video follows a very similar process. First, the video is broken up into its individual frames (numbered individually and saved as JPG images in a 'Frames' folder). Each frame is then colorized using the same process describe above. After each frame has been colorized, they are then reassembled to create a complete colorized video.
+
+# Notes:
+
+1) The code is given in the Jupyter notebook ColorizeVideo.ipynb.
+2) Again, the path names were originally hard-coded in because file selection wasn't the point of this exercise.
+3) The input video is in MP4 format. The output video is in AVI format.
+4) Any sound track that came with the video will be lost.
+5) The output video is larger than the input video
+6) I've used this process to successfully colorize a half hour-long Buster Keaton film, but such files are too large to place on GitHub.
