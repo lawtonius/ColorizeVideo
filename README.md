@@ -8,7 +8,7 @@ Since the L channel encodes only the intensity, it is used to represent the gray
 
 # Setup:
 
-Download these three files to your workspace:
+Download these three files to your workspace (the caffemodel file is too large for me to include in this repository):
 
 1) colorization_deploy_v2.prototxt
 2) colorization_release_v2.caffemodel
