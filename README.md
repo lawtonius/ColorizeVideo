@@ -8,9 +8,7 @@ Since the L channel encodes only the intensity, it is used to represent the gray
 
 # Setup:
 
-1) Download the file colorization_deploy_v2.prototxt, which be found [here](https://github.com/alexellis/faas-colorization/tree/master/function/models/)
-2) Download this [file](https://github.com/richzhang/colorization/tree/master/colorization/models/colorization_release_v2.caffemodel) to your workspace
-3) Download this [file](https://github.com/richzhang/colorization/blob/master/colorization/resources/pts_in_hull.npy) to your workspace
+Download the three file "colorization_deploy_v2.prototxt", "colorization_release_v2.caffemodel", and "pts_in_hull.npy", all of which can be found [here](https://code.naturkundemuseum.berlin/mediaspherefornature/colorize_iiif/-/tree/master/experimental/model)
  
 # Algorithm:
 
