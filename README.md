@@ -63,3 +63,13 @@ Colorizing a black-and-white video follows a very similar process. First, the vi
 4) Any sound track that came with the video will be lost.
 5) The output video is larger than the input video
 6) I've used this process to successfully colorize a half hour-long Buster Keaton film, but such files are too large to place on GitHub.
+
+
+
+https://user-images.githubusercontent.com/80790548/149534616-491268da-dd86-4ad1-9a4f-9e3d3ffb076e.mp4
+
+
+
+https://user-images.githubusercontent.com/80790548/149534903-cfb1b9f2-e808-46c3-a492-34032e49ae29.mp4
+
+
